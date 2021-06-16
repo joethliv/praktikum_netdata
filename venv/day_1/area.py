@@ -28,7 +28,7 @@ area_1 = math.sqrt( s_1*(s_1-d_one_two)*(s_1-d_two_three)*(s_1-d_one_three) )
 area_2 = math.sqrt( s_2*(s_2-d_four_one)*(s_2-d_three_four)*(s_2-d_one_three) )
 
 # Calculation of entire area
-area = area_1 + area_2
+area = round(area_1 + area_2, 5)
 
 # Output
 print(f"\nArea of quadrilateral = {area}")
